@@ -1,0 +1,874 @@
+body
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+/**header-part-pc-open***/
+.header
+{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    background-color: rgb(238, 8, 54);
+}
+.header-wraper
+{
+    width: 1170px;
+    margin: 0px auto;
+
+}
+.logo
+{
+    width: 200px;
+    float: left;
+    height: 50px;
+    margin: 0px 40px 0px 0px;
+    background-color: aquamarine;
+}
+
+
+
+.menubar
+{
+    width: 650px;
+    float: right;
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+/**header-part-pc-close***/
+
+/**banner-part-pc-open***/
+.banner
+{
+    float: left;
+    margin: 35px 140px;
+    padding: 0px 0px;
+}
+/**banner-part-pc-close***/
+
+/**welcome-part-pc-open***/
+.welcome-part
+{
+    width: 100%;
+    min-width: 250px;
+    height: auto;
+    float: left;
+    background-color: chartreuse;
+}
+.welcome-part img
+{
+    width: 453px;
+    height: 350px;
+    float: left;
+    margin: 35px 0px 0px 187px;
+}
+.welcome-part p
+{
+    width: 447px;
+    height: 350px;
+    float: left;
+    margin: 23px 216px;
+    color: black;
+    line-height: 45px;
+}
+/**welcome-part-pc-close***/
+
+/**service-part-pc-open***/
+.service
+{
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+}
+.box
+{
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    float: left;
+    margin: 23px 25px;
+}
+.news-form
+{
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+}
+.news-form h1
+{
+    text-align: center;
+    margin: 83px 0px;
+}
+.news
+{
+    width: 562px;
+    height: 354px;
+    background-color: crimson;
+    float: left;
+    margin: 49px 155px;
+    border-radius: 6px;
+}
+.new 
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 35px 0px;
+}
+.news img
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 0px 34px;
+}
+.news p
+{
+  font-size: 24px;
+  display: flex;
+  margin: 34px 88px;
+}
+.form
+{
+    width: 514px;
+    height: 354px;
+    background-color: crimson;
+    float: left;
+    margin: 47px 0px;
+    border-radius: 6px;
+}
+.form h2
+{
+    text-align: center;
+    margin: 31px 0px;
+    padding: 0px 0px;
+}
+.name
+{
+    margin: 35px 101px;
+}
+.name input
+{
+    width: 300px;
+    height: 27px;
+}
+.email
+{
+    margin: 35px 101px;
+}
+.email input
+{
+    width: 300px;
+    height: 27px;
+}
+.phone
+{
+    margin: 17px 101px;
+}
+.phone input
+{
+    width: 300px;
+    height: 27px;
+}
+.button
+{
+    margin: 45px 101px;
+}
+.button input
+{
+    width: 300px;
+    height: 27px;
+}
+/**service-part-pc-close***/
+/**client-part-pc-open***/
+.client
+{
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+}
+.client-box
+{
+    width: 100px;
+    height: 135px;
+    background-color: crimson;
+    float: left;
+    margin: 23px 25px;
+}
+/**client-part-pc-close***/
+
+/************media-query-min-laptop-open******************************/
+@media only screen and (max-width:959px){
+       /**header-part-pc-open***/
+.header
+{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    background-color: rgb(238, 8, 54);
+}
+.header-wraper
+{
+    width: 90%;
+    margin: 0px auto;
+
+}
+.logo
+{
+    width: 20%;
+    float: left;
+    height: 50px;
+    margin: 0px 40px 0px 0px;
+    background-color: aquamarine;
+}
+
+
+
+.menubar
+{
+    width: 69%;
+    float: right;
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+/**header-part-pc-close***/
+
+/**banner-part-pc-open***/
+.banner
+{
+    width: 100%;
+    float: left;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.banner img
+{
+    width: 90%;
+    float: left;
+    margin: 35px 50px;
+    padding: 0px 0px;
+}
+/**banner-part-pc-close***/
+
+/**welcome-part-pc-open***/
+.welcome-part
+{
+    width: 90%;
+    min-width: 250px;
+    margin: 36px 26px;
+    height: auto;
+    background-color: chartreuse;
+}
+.welcome-part img
+{
+    width: 80%;
+    height: 442px;
+    float: left;
+    margin: 35px 82px;
+}
+.welcome-part p
+{
+    width: 60%;
+    height: 489px;
+    float: left;
+    margin: 0px 166px;
+    color: black;
+    line-height: 53px;
+}
+/**welcome-part-pc-close***/
+
+/**service-part-pc-open***/
+.service
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    background-color: bisque;
+    justify-content: center;
+    margin: 5px 53px;
+}
+.box
+{
+    width: 30%;
+    height: 159px;
+    background-color: crimson;
+    float: left;
+    margin: 28px 43px;
+}
+.news-form
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+    margin: 33px 50px;
+}
+.news-form h1
+{
+    text-align: center;
+    margin: 83px 0px;
+}
+.news
+{
+    width: 60%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 0px 166px;
+    border-radius: 6px;
+}
+.new 
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 35px 0px;
+}
+.news img
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 0px 34px;
+}
+.news p
+{
+  font-size: 24px;
+  display: flex;
+  margin: 34px 88px;
+}
+.form
+{
+    width: 88%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 59px 49px;
+    border-radius: 6px;
+}
+.form h2
+{
+    text-align: center;
+    margin: 31px 0px;
+    padding: 0px 0px;
+}
+.name
+{
+    margin: 35px 29%;
+}
+.name input
+{
+    width: 300px;
+    height: 27px;
+}
+.email
+{
+    margin: 35px 29%;
+}
+.email input
+{
+    width: 300px;
+    height: 27px;
+}
+.phone
+{
+    margin: 17px 29%;
+}
+.phone input
+{
+    width: 300px;
+    height: 27px;
+}
+.button
+{
+    margin: 49px 29%;
+}
+.button input
+{
+    width: 300px;
+    height: 27px;
+}
+/**service-part-pc-close***/
+/**client-part-pc-open***/
+.client
+{
+    width: 90%;
+    min-height: 100%;
+    height: auto;
+    margin: 10px 27px;
+    float: left;
+    background-color: bisque;
+}
+.client-box
+{
+    width: 90px;
+    height: 135px;
+    background-color: crimson;
+    float: left;
+    margin: 23px 25px;
+}
+/**client-part-pc-close***/
+
+}
+/************media-query-min-laptop-close******************************/
+
+
+
+
+
+
+
+
+/***************************media-query-tab-open*********************************/
+@media only screen and (max-width:768px){
+      /**header-part-pc-open***/
+.header
+{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    background-color: rgb(238, 8, 54);
+}
+.header-wraper
+{
+    width: 90%;
+    margin: 0px auto;
+
+}
+.logo
+{
+    width: 20%;
+    float: left;
+    height: 50px;
+    margin: 0px 40px 0px 0px;
+    background-color: aquamarine;
+}
+
+
+
+.menubar
+{
+    width: 69%;
+    float: right;
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+/**header-part-pc-close***/
+
+/**banner-part-pc-open***/
+.banner
+{
+    width: 100%;
+    float: left;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.banner img
+{
+    width: 90%;
+    float: left;
+    margin: 35px 29px;
+    padding: 0px 0px;
+}
+/**banner-part-pc-close***/
+
+/**welcome-part-pc-open***/
+.welcome-part
+{
+    width: 90%;
+    min-width: 250px;
+    margin: 36px 26px;
+    height: auto;
+    background-color: chartreuse;
+}
+.welcome-part img
+{
+    width: 62%;
+    height: 200px;
+    float: left;
+    margin: 35px 82px;
+}
+.welcome-part p
+{
+    width: 60%;
+    height: 489px;
+    float: left;
+    margin: 0px 86px;
+    color: black;
+    line-height: 32px;
+}
+/**welcome-part-pc-close***/
+
+/**service-part-pc-open***/
+.service
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    background-color: bisque;
+    justify-content: center;
+    margin: 5px 27px;
+}
+.box
+{
+    width: 30%;
+    height: 159px;
+    background-color: crimson;
+    float: left;
+    margin: 28px 43px;
+}
+.news-form
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+    margin: 33px 26px;
+}
+.news-form h1
+{
+    text-align: center;
+    margin: 83px 0px;
+}
+.news
+{
+    width: 60%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 0px 97px;
+    border-radius: 6px;
+}
+.new 
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 35px 0px;
+}
+.news img
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 0px 34px;
+}
+.news p
+{
+  font-size: 24px;
+  display: flex;
+  margin: 34px 88px;
+}
+.form
+{
+    width: 88%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 59px 26px;
+    border-radius: 6px;
+}
+.form h2
+{
+    text-align: center;
+    margin: 31px 0px;
+    padding: 0px 0px;
+}
+.name
+{
+    margin: 35px 50px;
+}
+.name input
+{
+    width: 300px;
+    height: 27px;
+}
+.email
+{
+    margin: 35px 50px;
+}
+.email input
+{
+    width: 300px;
+    height: 27px;
+}
+.phone
+{
+    margin: 17px 50px;
+}
+.phone input
+{
+    width: 300px;
+    height: 27px;
+}
+.button
+{
+    margin: 49px 53px;
+}
+.button input
+{
+    width: 300px;
+    height: 27px;
+}
+/**service-part-pc-close***/
+/**client-part-pc-open***/
+.client
+{
+    width: 90%;
+    min-height: 100%;
+    height: auto;
+    margin: 10px 27px;
+    float: left;
+    background-color: bisque;
+}
+.client-box
+{
+    width: 90px;
+    height: 135px;
+    background-color: crimson;
+    float: left;
+    margin: 23px 25px;
+}
+/**client-part-pc-close***/
+}
+/***************************media-query-tab-close*********************************/
+
+
+
+
+
+
+/***************************media-query-mobile-open*********************************/
+@media only screen and (max-width:505px)
+{
+    /**header-part-pc-open***/
+.header
+{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    float: left;
+    background-color: rgb(238, 8, 54);
+}
+.header-wraper
+{
+    width: 90%;
+    margin: 0px auto;
+
+}
+.logo
+{
+    width: 20%;
+    float: left;
+    height: 50px;
+    margin: 0px 40px 0px 0px;
+    background-color: aquamarine;
+}
+
+
+
+.menubar
+{
+    width: 69%;
+    float: right;
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+/**header-part-pc-close***/
+
+/**banner-part-pc-open***/
+.banner
+{
+    width: 100%;
+    float: left;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.banner img
+{
+    width: 90%;
+    float: left;
+    margin: 35px 29px;
+    padding: 0px 0px;
+}
+/**banner-part-pc-close***/
+
+/**welcome-part-pc-open***/
+.welcome-part
+{
+    width: 90%;
+    min-width: 250px;
+    margin: 36px 26px;
+    height: auto;
+    background-color: chartreuse;
+}
+.welcome-part img
+{
+    width: 62%;
+    height: 200px;
+    float: left;
+    margin: 35px 82px;
+}
+.welcome-part p
+{
+    width: 60%;
+    height: 489px;
+    float: left;
+    margin: 0px 86px;
+    color: black;
+    line-height: 32px;
+}
+/**welcome-part-pc-close***/
+
+/**service-part-pc-open***/
+.service
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    background-color: bisque;
+    justify-content: center;
+    margin: 5px 27px;
+}
+.box
+{
+    width: 30%;
+    height: 159px;
+    background-color: crimson;
+    float: left;
+    margin: 28px 43px;
+}
+.news-form
+{
+    width: 90%;
+    min-height: 250px;
+    height: auto;
+    float: left;
+    background-color: bisque;
+    margin: 33px 26px;
+}
+.news-form h1
+{
+    text-align: center;
+    margin: 83px 0px;
+}
+.news
+{
+    width: 60%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 0px 97px;
+    border-radius: 6px;
+}
+.new 
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 35px 0px;
+}
+.news img
+{
+    width: 20px;
+    height: 25px;
+    float: left;
+    margin: 0px 34px;
+}
+.news p
+{
+  font-size: 24px;
+  display: flex;
+  margin: 34px 88px;
+}
+.form
+{
+    width: 88%;
+    height: 100%;
+    background-color: crimson;
+    float: left;
+    margin: 59px 26px;
+    border-radius: 6px;
+}
+.form h2
+{
+    text-align: center;
+    margin: 31px 0px;
+    padding: 0px 0px;
+}
+.name
+{
+    margin: 35px 50px;
+}
+.name input
+{
+    width: 300px;
+    height: 27px;
+}
+.email
+{
+    margin: 35px 50px;
+}
+.email input
+{
+    width: 300px;
+    height: 27px;
+}
+.phone
+{
+    margin: 17px 50px;
+}
+.phone input
+{
+    width: 300px;
+    height: 27px;
+}
+.button
+{
+    margin: 49px 53px;
+}
+.button input
+{
+    width: 300px;
+    height: 27px;
+}
+/**service-part-pc-close***/
+/**client-part-pc-open***/
+.client
+{
+    width: 90%;
+    min-height: 100%;
+    height: auto;
+    margin: 10px 27px;
+    float: left;
+    background-color: bisque;
+}
+.client-box
+{
+    width: 90px;
+    height: 135px;
+    background-color: crimson;
+    float: left;
+    margin: 23px 25px;
+}
+/**client-part-pc-close***/
+
+}
+/***************************media-query-mobile*****+***************************/
+
+
